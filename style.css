@@ -107,6 +107,10 @@ li {
     border-radius: 68px;
 }
 
+.menu_icon {
+    display: none;
+}
+
 /* Блок heading */
 .heading {
     margin: 14px 0px 77px 70px;
@@ -676,7 +680,351 @@ footer {
     transition: fill 0.3s ease-in, background-color 0.3s ease-in;
 }
 
-@media (min-width:320px) and (max-width:767px) {}
+@media (min-width:320px) and (max-width:767px) {
+
+    .container {
+        max-width: 375px;
+        height: 4418px;
+        overflow-x: hidden;
+    }
+
+    /* Блок header */
+    .container_top {
+        padding-top: 0px;
+        height: 800px;
+        background: url(./img/background_mobile.png);
+        background-size: cover;
+    }
+
+    .header_top {
+        height: 70px;
+        margin: auto 20px;
+    }
+
+    .logos {
+        width: 128px;
+    }
+
+    .logo {
+        gap: 10px;
+    }
+
+    .Logo_text {
+        margin-right: 0px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .signUp {
+        width: 92px;
+        gap: 18px;
+    }
+
+    .btnSignUp {
+        display: none;
+    }
+
+    .menu_icon {
+        display: block;
+    }
+
+    /* Блок heading */
+    .heading {
+        margin: 0px 0px 0px 0px;
+        height: 630px;
+    }
+
+    .img_heading {
+        content: url(./img/main-screen2.png);
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .text_block_heading {
+        margin: 280px 20px 0px 20px;
+        padding: 0;
+        width: 335px;
+        height: 222px;
+    }
+
+    .text_block_heading h2 {
+        font-size: 31px;
+        line-height: 120%;
+    }
+
+    .text_block_heading p {
+        margin-bottom: 26px;
+    }
+
+    .btn_heading {
+        width: 335px;
+        height: 50px;
+        padding: 15px 128px;
+    }
+
+
+    /* Блок main */
+    .content {
+        margin-top: 5px;
+        margin-bottom: 48px;
+        height: 2080px;
+        width: 335px;
+    }
+
+    /* Блок feature */
+    .feature {
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 335px;
+        height: 529px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+        margin-bottom: 71px;
+    }
+
+    .feature h2 {
+        margin-top: 0px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .text_p {
+        width: 335px;
+        height: 100px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 334px;
+        gap: 35px;
+    }
+
+    .features h3 {
+        margin-top: 0px;
+        margin-bottom: 9px;
+        width: 246px;
+    }
+
+    .features p {
+        width: 246px;
+        font-size: 14px;
+        height: 60px;
+    }
+
+    .border_feature {
+        width: 246px;
+        height: 88px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .element1_feature,
+    .element2_feature,
+    .element3_feature {
+        position: relative;
+        margin-left: 108px;
+    }
+
+    .img_element1_feature,
+    .img_element2_feature,
+    .img_element3_feature {
+        position: absolute;
+        left: -100px;
+    }
+
+    /* Блок screenshots */
+    .screenshots {
+        width: 335px;
+        height: 1467px;
+        margin: 0px 20px 60px 20px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .text_screenshots {
+        width: 335px;
+        height: 190px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 0px;
+    }
+
+    .text_screenshots h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .text_screenshots p {
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .border_screenshot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 30px;
+    }
+
+    .border_screenshot:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .img_border {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 335px;
+        height: 228.92px;
+        border-radius: 16.75px;
+    }
+
+    .img_chart1 {
+        content: url(./img/screen-01.png);
+    }
+
+    .img_chart2 {
+        content: url(./img/chart2_1.png);
+    }
+
+    .img_chart3 {
+        content: url(./img/screen-03.png);
+    }
+
+
+    /* pricing  */
+    .pricing_main {
+        height: 874px;
+    }
+
+    .container_pricing {
+        position: relative;
+        width: 375px;
+    }
+
+    .container1 {
+        height: 987px;
+        background: url(./img/background-bottom_mobile.png);
+        top: -210px;
+    }
+
+    .container2 {
+        display: none;
+    }
+
+    .pricing_content {
+        position: relative;
+        z-index: 2;
+        width: 335px;
+        height: 882px;
+        margin: 130px 20px 0px 20px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 60px;
+    }
+
+    .text_h2_pricing {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .text_p_pricing {
+        width: 375px;
+        margin-bottom: 59px;
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .pricing_cards {
+        gap: 20px;
+    }
+
+    .border_pricing {
+        width: 280px;
+        height: 358px;
+    }
+
+    .border_pricing h2 {
+        margin-bottom: 7px;
+        font-size: 25px;
+        line-height: 29px;
+    }
+
+    .border_pricing p {
+        margin-bottom: 30px;
+        font-size: 13px;
+        line-height: 140%;
+    }
+
+    .border_pricing hr {
+        margin-bottom: 20px;
+    }
+
+    .p_cost {
+        font-size: 13px;
+        margin-bottom: 36px;
+    }
+
+    .btn_pricing {
+        padding: 15px 83px;
+        width: 206px;
+    }
+
+    /* client_signUp  */
+    .client_signUp {
+        width: 375px;
+        height: 475px;
+    }
+
+    .client_inf {
+        display: none;
+    }
+
+    .log_feedback {
+        width: 375px;
+        margin-bottom: 35px;
+        margin-top: 34px;
+    }
+
+
+    footer {
+        height: 97px;
+    }
+
+    .container_footer {
+        height: 97px;
+        margin: auto 18px;
+    }
+
+    .menu_footer {
+        display: none;
+    }
+
+}
 
 /* Эффекты наведения */
 .footer__social-link:hover {
